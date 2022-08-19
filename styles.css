@@ -3,7 +3,8 @@ body {
     margin: 0;
 }
 
-.top-section {
+.top-section,
+.bottom-section {
     background-color: #1F2937;
     color: white;
     margin: 0;
@@ -53,7 +54,11 @@ body {
     color: #F9FAF8;
     margin-top: 0px;
     margin-bottom: 5px;
-    margin-right: 50px;
+    margin-right: 80px;
+}
+
+.hero-text {
+    margin-right: 40px;
 }
 
 .hero-image {
@@ -114,5 +119,58 @@ body {
 }
 
 .second-image-subtext {
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px;
+    margin: 100px 0px 75px 0px;
+}
+
+.quote-body {
+    color: #1F2937;
+    margin: 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-signature {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 250px 100px 250px;
+    padding: 50px 100px;
+    text-align: left;
+}
+
+
+.cta-header {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.calltoaction .button {
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+}
+
+.bottom-section {
+    padding: 20px;
     text-align: center;
 }
